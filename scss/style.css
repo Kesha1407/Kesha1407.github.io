@@ -1,0 +1,304 @@
+* {
+    font-family: "Itim", cursive;
+}
+
+nav {
+    height: 51px;
+    background-color: orange;
+}
+
+.menu {
+    display: flex;
+    padding: 5px 70px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu .menu_link {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted white;
+    padding-right: 28px;
+    list-style-type: none;
+}
+
+.subheader {
+    height: 84px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(214, 120, 13, 0.14);
+}
+
+.subheader .subheader_logo {
+    max-width: 27%;
+    margin-top: 7px;
+}
+
+.subheader .subheader_official {
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border-image: linear-gradient(to top, #1eacc1 7 0% #4ce2ff 100%);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 19px;
+    border-radius: 4px;
+}
+
+.subheader .subheader_phone {
+    text-align: left;
+    display: block;
+    margin-top: 8px;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-left: 130px;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-left: 130px;
+    text-align: center;
+    margin-top: 23px;
+    line-height: 24px;
+}
+
+.promo .promo_btn {
+    width: 259px;
+    height: 63px;
+    display: block;
+    margin: 47px auto 0 470px;
+    box-shadow: inset -4px 0 rgba(0, 0, 0, 0.12);
+    border-image: linear-gradient(to top, #1eacc1 7 0% #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+}
+
+.promo .promo_subheader {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 130px;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 22px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url("https://wallpapers.com/images/hd/daffy-duck-wallpaper-tab-theme-awanjxbha2y2cmyy.webp") center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.characters {
+    height: 1400px;
+    background: url("https://cdn.wallpapersafari.com/6/20/j7eA1V.jpg");
+    background-attachment: fixed;
+}
+
+.bugs_bunny {
+    width: 500px;
+    height: 148px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.daffy_duck {
+    width: 500px;
+    height: 148px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.yosemite_sam {
+    width: 500px;
+    height: 148px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.tweety {
+    width: 500px;
+    height: 148px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.tasmanian_devil {
+    width: 500px;
+    height: 148px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.wile_e_coyote {
+    width: 500px;
+    height: 148px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.bugs_bunny .characters_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.daffy_duck .characters_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.yosemite_sam .characters_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tweety .characters_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.wile_e_coyote .characters_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tasmanian_devil .characters_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.container .row .col-md-6 {
+    padding-top: 40px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 70px;
+    font-weight: 700;
+}
+
+.label {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    font-style: 38px;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 19px;
+    font-size: 24px;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.mobile {
+    min-height: 864px;
+    padding: 48px 0 79px 0;
+    background: url("../img/tweety1.jpg") center center/cover no-repeat;
+}
+.mobile_item {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    background: url("../img/daffy_.jpg") center center/cover no-repeat;
+    position: relative;
+    margin-bottom: 89px;
+    padding-top: 92px;
+    opacity: 0.9;
+    border: 1px solid lightblue;
+    border-radius: 4%;
+}
+.mobile_item_plus {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.mobile_item_3 .mobile_item_plus {
+    padding-top: 47px;
+    padding-left: -10px;
+}
+
+.mobile_item_4 .mobile_item_plus {
+    padding-top: 41px;
+    padding-left: 127px;
+}
+
+.mobile_item_5 .mobile_item_plus {
+    padding-top: -100px;
+    padding-left: 95px;
+}
+
+.mobile_item_6 .mobile_item_plus {
+    padding-top: 41px;
+}
