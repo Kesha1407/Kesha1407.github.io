@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 * {
     font-family: "Itim", cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -301,4 +305,96 @@ h3 {
 
 .mobile_item_6 .mobile_item_plus {
     padding-top: 41px;
+}
+
+.pict_of_bugs {
+    min-height: 999px;
+    background: url("../img/daffy1.png") center center/cover no-repeat;
+}
+.pict_of_bugs h2 {
+    margin-bottom: 0;
+    padding: 150px 0 30px 57px;
+    font-style: 38px;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.pict_of_bugs p {
+    padding: 0 0 0 40px;
+    font-size: 24px;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    text-align: left;
+}
+
+.require {
+    min-height: 999px;
+    background: url("../img/tweety1.png") center center/cover no-repeat;
+    background-position: 0px, 0px;
+    opacity: 0.9;
+    padding: 46px 0px 84px 0;
+}
+.require_block {
+    margin: 33px 0;
+}
+.require_nmb {
+    margin-bottom: 0px;
+}
+.require_title {
+    color: orange;
+    -webkit-text-stroke: 2px lightseagreen;
+    font-size: 29px;
+    font-weight: 400;
+}
+.require_list {
+    list-style-type: none;
+    margin-top: 22px;
+}
+.require_list li {
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 21px;
+    color: white;
+    line-height: 24px;
+    position: relative;
+    -webkit-text-stroke: 2px orangered;
+}
+.require_list li:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background: url("../img/warner-bros-online-logo.png") center center/cover no-repeat;
+    left: -32px;
+    top: 3px;
+}
+.require .waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(226, 47, 2, 0.2));
+    font-size: 60px;
+}
+.require .waviy span {
+    font-family: "Alfa Slab One", cursive;
+    position: relative;
+    display: inline-block;
+    color: gold;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+    0%, 40%, 100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
+.require .title {
+    color: lightseagreen;
+    -webkit-text-stroke: 2px lightgreen;
 }
